@@ -62,7 +62,7 @@ msgpack==1.0.4
     # via ray
 nbformat==5.4.0
     # via -r binder/requirements.txt
-numpy==1.22.4
+numpy==1.21.6
     # via
     #   gym
     #   imageio
@@ -117,11 +117,6 @@ scipy==1.8.1
     # via
     #   ray
     #   scikit-image
-six==1.16.0
-    # via
-    #   grpcio
-    #   python-dateutil
-    #   virtualenv
 tabulate==0.8.9
     # via ray
 tensorboardx==2.5.1
